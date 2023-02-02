@@ -49,7 +49,7 @@ function card(props) {
         </div>
         <div className="subtop">
           <h5>Website</h5>
-          <h6>{props.website}</h6>
+          <a href={props.website} >{props.website}</a>
         </div>
         <button className="active show-btn btn" id={props.id} onClick={show}>
           View Details
